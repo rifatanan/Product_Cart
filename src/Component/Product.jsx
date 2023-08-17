@@ -1,6 +1,9 @@
+import { useNavigate } from 'react-router-dom';
 import { createCard } from '../APIRequest/APIRequest';
 
 const Product = ( props) => {
+
+    const navigate = useNavigate();
     //console.log(props);
 
     const handleAddToCart = () => {
@@ -8,6 +11,9 @@ const Product = ( props) => {
         .then(data =>{
             if(data?.msg==="success"){
                 console.log('product was added to cart')
+            }
+            else if(data?.msg === 'fail'){
+                navigate("/login")
             }
         })
         .catch(err => console.log("There was an error"))

@@ -3,7 +3,6 @@ import CartItem from './CartItem';
 import { fetchCartList, removeCard } from '../APIRequest/APIRequest';
 import { useNavigate } from 'react-router-dom';
 
-
 const CartList = () => {
 
     const [items,setItems] = useState([]);

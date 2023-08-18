@@ -5,8 +5,8 @@ import CartList from '../Component/CartList';
 const CartPage = () => {
     return (
         <div>
-            <NavBar/>
-            <CartList/>
+            <NavBar /> 
+            <CartList />
         </div>
     );
 };

@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { verifyLogin } from '../APIRequest/APIRequest';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 
-
 const OTPPage = () => {
 
     const [pin,setPin] = useState();
@@ -21,7 +20,6 @@ const OTPPage = () => {
             }
         })
         .catch(err => console.log('there was an error'))
-
     }
 
     return (

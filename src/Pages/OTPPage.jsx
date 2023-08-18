@@ -29,7 +29,7 @@ const OTPPage = () => {
             <div className="grid grid-cols-1 mt-2 md:grid-cols-1 lg:grid-cols-1 gap-3">
                 <div className="flex items-center w-full justify-center h-screen">
                     <div className="card w-8/12 card-side bg-white shadow-xl">
-                        <figure><img className="h-96 w-96" src="/src/Image/otp.jpeg" alt="Movie"/></figure>
+                        <figure><img className="h-96 w-96" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBM1PuGgnVseqYAtWzB1LkrFqgSUo1SgYXTQ&usqp=CAU" alt="Image"/></figure>
                         <div className="card-body justify-center items-center">
                             <div className="w-8/12">
                                 <h1 className="text-2xl my-4">PIN VERIFICATION</h1>

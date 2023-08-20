@@ -1,5 +1,3 @@
-import React from 'react';
-
 const CartItem = ({refProduct,remove}) => {
     return (
         <div className="card card-side bg-white shadow-xl">
